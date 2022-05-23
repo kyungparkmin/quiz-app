@@ -1,0 +1,46 @@
+@import './fontStyle.css';
+
+html {
+  background-color: #E9F795;
+}
+
+.Logo-text {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(255, 255, 255)
+}
+
+.btn {
+  font-size: 28px;
+  width: 250px;
+  height: 30px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+  animation: fadeInUp 2s;  
+  border: 1px solid #cbe74f;
+  border-radius: 50px;
+  background-color: #cbe74f;
+  padding: 20px;
+}
+
+.StartOrMakeQuiz {
+  margin-top: 300px;
+}
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+  }
+  to {
+      opacity: 1;
+      transform: translateZ(0);
+  }
+}
+
+

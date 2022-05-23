@@ -1,0 +1,77 @@
+@import './fontStyle.css';
+
+html {
+    background-color: #E9F795;
+  }
+
+.center1 {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #cbe74f;
+}
+
+header div {
+    text-align: center;
+}
+
+.centerSort {
+    width: 60%;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.boxSort {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.box1 {
+    display: flex;
+    border: 2px solid #cbe74f;
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+}
+
+.box2 {
+    display: flex;
+    border: 2px solid #cbe74f;
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.box3 {
+    display: flex;
+    border: 2px solid #cbe74f;
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+}
+
+
+.sort {
+    margin-top: 70px;
+}
+
+#Q_question {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#Q_answer {
+    font-size: 40px;
+    margin-top: 30px;
+}

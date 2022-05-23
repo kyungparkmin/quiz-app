@@ -1,0 +1,50 @@
+@import 'fontStyle.css';
+@import 'Header.css';
+
+.Add-layout {
+  display: block;
+  margin-top: 150px;
+}
+
+.btn1 {
+  font-size: 20px;
+  border: 1px solid black;
+  width: 200px;
+  height: 20px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #cbe74f;
+  border-radius: 50px;
+  background-color: #cbe74f;
+  padding: 20px;
+}
+
+input.question {
+  margin-right: 19px;
+}
+
+.Add-layout {
+  text-align: center;
+}
+
+input[type="text"] {
+  border: 0;
+  border-bottom: 1px solid #E9F795;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  font-size: 20px;
+  border: 0;
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #cbe74f;
+  border-radius: 50px;
+  background-color: #cbe74f;
+  color: white;
+}

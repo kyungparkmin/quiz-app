@@ -4,8 +4,8 @@ dotenv.config();
 const config = {
   development : {
     username : "root",
-    password : "1234",
-    database : "quiz_db1",
+    password : process.env.PASSWORD,
+    database : process.env.DATABASE,
     host : "localhost",
     port : 3307,
     dialect : "mysql"
